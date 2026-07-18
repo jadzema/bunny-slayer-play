@@ -1,0 +1,242 @@
+{
+  "id": "vert_test",
+  "name": "Verticality Sandbox",
+  "theme": "daytime",
+  "geometry": [
+    {
+      "position": {
+        "x": 0,
+        "y": -0.05,
+        "z": 0
+      },
+      "size": {
+        "x": 60,
+        "y": 0.1,
+        "z": 60
+      },
+      "solid": true
+    },
+    {
+      "position": {
+        "x": -3.5,
+        "y": 2,
+        "z": 0
+      },
+      "size": {
+        "x": 4,
+        "y": 4,
+        "z": 6
+      },
+      "solid": true
+    },
+    {
+      "position": {
+        "x": -5.6,
+        "y": 4.6,
+        "z": 0
+      },
+      "size": {
+        "x": 0.3,
+        "y": 1.2,
+        "z": 6
+      },
+      "solid": true
+    },
+    {
+      "position": {
+        "x": 8,
+        "y": 1.5,
+        "z": -2
+      },
+      "size": {
+        "x": 4,
+        "y": 3,
+        "z": 6
+      },
+      "solid": true
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 0.2,
+        "z": 1.75
+      },
+      "size": {
+        "x": 1.8,
+        "y": 0.4,
+        "z": 0.5
+      },
+      "solid": true,
+      "visible": false
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 0.4,
+        "z": 1.25
+      },
+      "size": {
+        "x": 1.8,
+        "y": 0.8,
+        "z": 0.5
+      },
+      "solid": true,
+      "visible": false
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 0.6000000000000001,
+        "z": 0.75
+      },
+      "size": {
+        "x": 1.8,
+        "y": 1.2000000000000002,
+        "z": 0.5
+      },
+      "solid": true,
+      "visible": false
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 0.8,
+        "z": 0.25
+      },
+      "size": {
+        "x": 1.8,
+        "y": 1.6,
+        "z": 0.5
+      },
+      "solid": true,
+      "visible": false
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 1,
+        "z": -0.25
+      },
+      "size": {
+        "x": 1.8,
+        "y": 2,
+        "z": 0.5
+      },
+      "solid": true,
+      "visible": false
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 1.2000000000000002,
+        "z": -0.75
+      },
+      "size": {
+        "x": 1.8,
+        "y": 2.4000000000000004,
+        "z": 0.5
+      },
+      "solid": true,
+      "visible": false
+    },
+    {
+      "position": {
+        "x": -9,
+        "y": 1.2000000000000002,
+        "z": -2.5
+      },
+      "size": {
+        "x": 2.2,
+        "y": 2.4000000000000004,
+        "z": 3
+      },
+      "solid": true
+    }
+  ],
+  "staticModels": [
+    {
+      "modelId": "stairs",
+      "position": {
+        "x": -9,
+        "y": 0,
+        "z": 2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    }
+  ],
+  "enemySpawns": [],
+  "pickupSpawns": [],
+  "triggers": [
+    {
+      "id": "t_lift",
+      "event": "look_trigger",
+      "position": {
+        "x": 2,
+        "y": 0,
+        "z": 0.5
+      },
+      "size": {
+        "x": 1,
+        "y": 2,
+        "z": 1
+      },
+      "data": {
+        "elevatorId": "lift",
+        "noMesh": true
+      }
+    }
+  ],
+  "elevators": [
+    {
+      "id": "lift",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 2,
+        "z": 2
+      },
+      "bottomY": 0,
+      "topY": 4,
+      "speed": 2,
+      "button": {
+        "position": {
+          "x": 2,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotationY": -1.5707963267948966
+      }
+    }
+  ],
+  "ladders": [
+    {
+      "id": "lad",
+      "position": {
+        "x": 8,
+        "y": 0,
+        "z": 1.2
+      },
+      "height": 4,
+      "rotationY": 0,
+      "half": {
+        "x": 0.6,
+        "z": 0.8
+      }
+    }
+  ],
+  "playerStart": {
+    "x": 0,
+    "y": 1,
+    "z": 9
+  },
+  "playerStartRotation": 0,
+  "objective": "VERT SANDBOX — call the lift (E), climb the ladder (W/S), walk the stairs"
+}

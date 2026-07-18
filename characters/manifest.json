@@ -1,0 +1,53 @@
+{
+  "characters": [
+    {
+      "id": "baby_bunny",
+      "name": "Baby Bunny",
+      "archetype": "baby",
+      "file": "/characters/baby_bunny.json",
+      "savedAt": "2026-06-01T16:22:26.009Z"
+    },
+    {
+      "id": "cute",
+      "name": "Cute",
+      "archetype": "cute",
+      "file": "/characters/cute.json",
+      "savedAt": "2026-05-31T20:03:57.575Z"
+    },
+    {
+      "id": "cute_range",
+      "name": "Cute Bunny (Ranged)",
+      "archetype": "cute",
+      "file": "/characters/cute_range.json",
+      "savedAt": "2026-06-02T22:30:00.000Z"
+    },
+    {
+      "id": "angry_bunny",
+      "name": "Angry Bunny",
+      "archetype": "angry",
+      "file": "/characters/angry_bunny.json",
+      "savedAt": "2026-06-01T23:30:00.000Z"
+    },
+    {
+      "id": "scary_bunny",
+      "name": "Scary Bunny",
+      "archetype": "scary",
+      "file": "/characters/scary_bunny.json",
+      "savedAt": "2026-06-01T23:45:00.000Z"
+    },
+    {
+      "id": "zombie_bunny",
+      "name": "Zombie Bunny",
+      "archetype": "zombie",
+      "file": "/characters/zombie_bunny.json",
+      "savedAt": "2026-06-01T23:45:00.000Z"
+    },
+    {
+      "id": "hellspawn_hare",
+      "name": "Hell Spawn Hare",
+      "archetype": "hellspawn",
+      "file": "/characters/hellspawn_hare.json",
+      "savedAt": "2026-06-10T08:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,716 @@
+{
+  "slots": [
+    {
+      "id": "music_sunny",
+      "displayName": "Sunny Day Theme",
+      "src": "music_sunny.wav",
+      "category": "music",
+      "volume": 0.5,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "ambient_birds",
+      "displayName": "Park Birds",
+      "src": "ambient_birds.wav",
+      "category": "ambient",
+      "volume": 0.4,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "mower_engine",
+      "displayName": "Mower Engine",
+      "src": "mower_engine.wav",
+      "category": "sfx",
+      "volume": 0.6,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "chainsaw_idle",
+      "displayName": "Chainsaw Idle",
+      "src": "chainsaw_idle.wav",
+      "category": "sfx",
+      "volume": 0.6,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "chainsaw_engaged",
+      "displayName": "Chainsaw Engaged",
+      "src": "chainsaw_engaged.wav",
+      "category": "sfx",
+      "volume": 0.6,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "wpn_pistol_fire",
+      "displayName": "Pistol Fire",
+      "src": "wpn_pistol_fire.wav",
+      "category": "sfx",
+      "volume": 0.7,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "wpn_pistol_reload",
+      "displayName": "Pistol Reload",
+      "src": "wpn_pistol_reload.wav",
+      "category": "sfx",
+      "volume": 0.7,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "wpn_shotgun_fire",
+      "displayName": "Shotgun Fire",
+      "src": "wpn_shotgun_fire.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "wpn_shotgun_reload",
+      "displayName": "Shotgun Reload",
+      "src": "wpn_shotgun_reload.wav",
+      "category": "sfx",
+      "volume": 0.7,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "wpn_rocket_fire",
+      "displayName": "Rocket Fire",
+      "src": "wpn_rocket_fire.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "wpn_rocket_reload",
+      "displayName": "Rocket Reload",
+      "src": "wpn_rocket_reload.wav",
+      "category": "sfx",
+      "volume": 0.7,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "wpn_sniper_fire",
+      "displayName": "Sniper Fire",
+      "src": "wpn_sniper_fire.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "wpn_sniper_reload",
+      "displayName": "Sniper Reload",
+      "src": "wpn_sniper_reload.wav",
+      "category": "sfx",
+      "volume": 0.7,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "glory_kill",
+      "displayName": "Glory Kill",
+      "src": "glory_kill.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "crate_break",
+      "displayName": "Crate Break",
+      "src": "crate_break.wav",
+      "category": "sfx",
+      "volume": 0.75,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "button_press",
+      "displayName": "Button Press",
+      "src": "button_press.wav",
+      "category": "sfx",
+      "volume": 0.7,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "music_l1",
+      "displayName": "Level 1 \u2014 Bright Sunny Day",
+      "src": "music_l1.m4a",
+      "category": "music",
+      "volume": 0.8,
+      "loop": true,
+      "loopStart": 31.95,
+      "loopEnd": 158.0,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "music_l2",
+      "displayName": "Level 2 \u2014 Night Is Coming",
+      "src": "music_l2.m4a",
+      "category": "music",
+      "volume": 0.8,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "music_l3",
+      "displayName": "Level 3 \u2014 Night Zombies",
+      "src": "music_l3.m4a",
+      "category": "music",
+      "volume": 0.8,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "music_l4",
+      "displayName": "Level 4 \u2014 Down the Rabbit Hole",
+      "src": "music_l4.m4a",
+      "category": "music",
+      "volume": 0.8,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "music_l5",
+      "displayName": "Level 5 \u2014 Welcome to Hell",
+      "src": "music_l5.mp3",
+      "category": "music",
+      "volume": 0.8,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "music_l6",
+      "displayName": "Level 6 \u2014 John's Lab",
+      "src": "music_l6.mp3",
+      "category": "music",
+      "volume": 0.8,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "enemy_windup",
+      "displayName": "Enemy Windup (Boar Scream)",
+      "src": "enemy_windup.wav",
+      "category": "sfx",
+      "volume": 0.7,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "player_hurt",
+      "displayName": "Player Hurt (Pain Grunt)",
+      "src": "player_hurt.wav",
+      "category": "sfx",
+      "volume": 0.9,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "grenade_throw",
+      "displayName": "Grenade Throw",
+      "src": "grenade_throw.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "grenade_explode",
+      "displayName": "Grenade Explode",
+      "src": "grenade_explode.wav",
+      "category": "sfx",
+      "volume": 0.9,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "enemy_melee_hit",
+      "displayName": "Enemy Melee Hit (Slam Bite)",
+      "src": "enemy_melee_hit.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "projectile_hit_player",
+      "displayName": "Projectile Hit Player (Knife Impact)",
+      "src": "projectile_hit_player.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "explosion",
+      "displayName": "Explosion (Rocket)",
+      "src": "explosion.wav",
+      "category": "sfx",
+      "volume": 0.9,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "blood_hit",
+      "displayName": "Blood Hit (Bullet Impact)",
+      "src": "blood_hit.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "death_cute",
+      "displayName": "Death \u2014 Cute (Goblin)",
+      "src": "death_cute.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "death_zombie",
+      "displayName": "Death \u2014 Zombie (Monster Cry)",
+      "src": "death_zombie.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "death_angry",
+      "displayName": "Death \u2014 Angry",
+      "src": "death_angry.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "death_scary",
+      "displayName": "Death \u2014 Scary",
+      "src": "death_scary.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "death_hellspawn",
+      "displayName": "Death \u2014 Hellspawn (Demonic)",
+      "src": "death_hellspawn.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "music_calm",
+      "displayName": "Calm Track (Peaceful Animals)",
+      "src": "music_calm.m4a",
+      "category": "music",
+      "volume": 0.7,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "music_credits",
+      "displayName": "Credits \u2014 Bunny Reaper",
+      "src": "music_credits.mp3",
+      "category": "music",
+      "volume": 0.8,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "player_death",
+      "displayName": "Player Death (Military Sting)",
+      "src": "player_death.wav",
+      "category": "sfx",
+      "volume": 0.9,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "quick_melee",
+      "displayName": "Quick Melee (Whoosh)",
+      "src": "quick_melee.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "chainsaw_fail",
+      "displayName": "Chainsaw Overheat Sputter",
+      "src": "chainsaw_fail.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "ui_click",
+      "displayName": "Weapon Wheel Tick",
+      "src": "ui_click.wav",
+      "category": "sfx",
+      "volume": 0.7,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "level_exit",
+      "displayName": "Level Exit",
+      "src": "level_exit.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "pickup_health",
+      "displayName": "Pickup \u2014 Health",
+      "src": "pickup_health.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "pickup_armor",
+      "displayName": "Pickup \u2014 Armor",
+      "src": "pickup_armor.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "pickup_ammo",
+      "displayName": "Pickup \u2014 Ammo",
+      "src": "pickup_ammo.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "grenade_bounce",
+      "displayName": "Grenade Bounce",
+      "src": "grenade_bounce.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "player_jump",
+      "displayName": "Player Jump",
+      "src": "player_jump.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "player_land",
+      "displayName": "Player Landing",
+      "src": "player_land.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "ambient_l1",
+      "displayName": "Ambient Bed \u2014 L1",
+      "src": "ambient_l1.wav",
+      "category": "ambient",
+      "volume": 0.5,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "ambient_l2",
+      "displayName": "Ambient Bed \u2014 L2",
+      "src": "ambient_l2.wav",
+      "category": "ambient",
+      "volume": 0.5,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "ambient_l3",
+      "displayName": "Ambient Bed \u2014 L3",
+      "src": "ambient_l3.wav",
+      "category": "ambient",
+      "volume": 0.5,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "ambient_l4",
+      "displayName": "Ambient Bed \u2014 L4",
+      "src": "ambient_l4.wav",
+      "category": "ambient",
+      "volume": 0.5,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "ambient_l5",
+      "displayName": "Ambient Bed \u2014 L5",
+      "src": "ambient_l5.wav",
+      "category": "ambient",
+      "volume": 0.5,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "ambient_l6",
+      "displayName": "Ambient Bed \u2014 L6",
+      "src": "ambient_l6.wav",
+      "category": "ambient",
+      "volume": 0.5,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "enemy_alert",
+      "displayName": "Cutscene Menace Sting",
+      "src": "enemy_alert.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "bulkhead_clunk",
+      "displayName": "Bulkhead Clunk",
+      "src": "bulkhead_clunk.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "signal_restore",
+      "displayName": "Signal Restore",
+      "src": "signal_restore.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "chainsaw_hit",
+      "displayName": "Chainsaw Flesh Hit",
+      "src": "chainsaw_hit.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "arena_lock",
+      "displayName": "Arena Lock",
+      "src": "arena_lock.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "door_seal",
+      "displayName": "Door Seal / Servo",
+      "src": "door_seal.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "signal_jam",
+      "displayName": "Signal Jam",
+      "src": "signal_jam.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "mower_slow",
+      "displayName": "Mower Slowing (Massacre)",
+      "src": "mower_slow.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "mower_clink",
+      "displayName": "Mower Blade Clink",
+      "src": "mower_clink.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "bunny_screams",
+      "displayName": "Bunny Screams (Massacre)",
+      "src": "bunny_screams.wav",
+      "category": "sfx",
+      "volume": 0.85,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "grass_mow",
+      "displayName": "Grass Mow (Tuft Swish)",
+      "src": "grass_mow.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "pickup_weapon",
+      "displayName": "Pickup \u2014 Weapon",
+      "src": "pickup_weapon.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "behind_cue_cute",
+      "displayName": "Behind Cue \u2014 Cute Bunny Squeal",
+      "src": "behind_cue_cute.wav",
+      "category": "sfx",
+      "volume": 0.7,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "body_thump",
+      "displayName": "Body Thump (Cutscene)",
+      "src": "body_thump.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "cutscene_dread",
+      "displayName": "Cutscene Underscore \u2014 Dread",
+      "src": "cutscene_dread.wav",
+      "category": "music",
+      "volume": 0.8,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "cutscene_dread_b",
+      "displayName": "Cutscene Underscore \u2014 Meltdown",
+      "src": "cutscene_dread_b.wav",
+      "category": "music",
+      "volume": 0.8,
+      "loop": true,
+      "spatial": false,
+      "maxDistance": 0
+    },
+    {
+      "id": "crowd_cheer",
+      "displayName": "Crowd Cheer (Bunny Celebration)",
+      "src": "crowd_cheer.wav",
+      "category": "sfx",
+      "volume": 0.8,
+      "loop": false,
+      "spatial": false,
+      "maxDistance": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cute",
+  "characterClass": "enemy",
+  "archetype": "cute",
+  "base": {
+    "maxHealth": 60,
+    "moveSpeed": 2.8,
+    "attackDamage": 6,
+    "attackRange": 1.8,
+    "attackCooldown": 1.6,
+    "staggerThreshold": 25
+  },
+  "enemy": {
+    "detectionRange": 16,
+    "aggressiveness": 0.22,
+    "attackMethod": "melee"
+  },
+  "visual": {
+    "bodyColor": "#f5ddb0",
+    "eyeColor": "#180a02",
+    "eyeGlow": 0,
+    "bodyScale": 0.75,
+    "accentColor": "#ff9999",
+    "earInnerColor": "#ffc0c8"
+  },
+  "dropType": "health"
+}

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "type": "weapon",
+  "id": "mower",
+  "name": "MOWER",
+  "baseDamage": 38,
+  "fireRate": 1.4,
+  "spread": 0,
+  "range": 2.5,
+  "projectileSpeed": 0,
+  "clipSize": 0,
+  "reloadTime": 0,
+  "altFire": {
+    "label": "REV BLADE",
+    "damage": 75,
+    "mode": "charged"
+  },
+  "accentColor": "#22cc44",
+  "bodyColor": "#cc2808",
+  "finish": "matte",
+  "attachments": []
+}

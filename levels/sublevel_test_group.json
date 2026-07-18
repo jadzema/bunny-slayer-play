@@ -1,0 +1,472 @@
+{
+  "id": "sublevel_test",
+  "name": "Sub-Level Sandbox",
+  "entry": "surface",
+  "maps": [
+    {
+      "mapId": "surface",
+      "links": [
+        {
+          "id": "stairs_down",
+          "toMap": "warren",
+          "arrive": {
+            "x": 9,
+            "y": 1,
+            "z": 6
+          },
+          "arriveRotation": 3.141592653589793
+        }
+      ],
+      "def": {
+        "id": "sublevel_test_surface",
+        "name": "Sub-Level Sandbox — Surface",
+        "theme": "daytime",
+        "geometry": [
+          {
+            "position": {
+              "x": 0,
+              "y": -0.05,
+              "z": 0
+            },
+            "size": {
+              "x": 60,
+              "y": 0.1,
+              "z": 60
+            },
+            "solid": true
+          },
+          {
+            "position": {
+              "x": -9,
+              "y": 0.2,
+              "z": 1.75
+            },
+            "size": {
+              "x": 1.8,
+              "y": 0.4,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": -9,
+              "y": 0.4,
+              "z": 1.25
+            },
+            "size": {
+              "x": 1.8,
+              "y": 0.8,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": -9,
+              "y": 0.6000000000000001,
+              "z": 0.75
+            },
+            "size": {
+              "x": 1.8,
+              "y": 1.2000000000000002,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": -9,
+              "y": 0.8,
+              "z": 0.25
+            },
+            "size": {
+              "x": 1.8,
+              "y": 1.6,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": -9,
+              "y": 1,
+              "z": -0.25
+            },
+            "size": {
+              "x": 1.8,
+              "y": 2,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": -9,
+              "y": 1.2000000000000002,
+              "z": -0.75
+            },
+            "size": {
+              "x": 1.8,
+              "y": 2.4000000000000004,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": -9,
+              "y": 1.2000000000000002,
+              "z": -2.5
+            },
+            "size": {
+              "x": 2.2,
+              "y": 2.4000000000000004,
+              "z": 3
+            },
+            "solid": true
+          }
+        ],
+        "staticModels": [
+          {
+            "modelId": "stairs",
+            "position": {
+              "x": -9,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1
+          }
+        ],
+        "enemySpawns": [
+          {
+            "id": "s_enemy_1",
+            "type": "designer",
+            "characterFile": "angry_bunny.json",
+            "position": {
+              "x": -4,
+              "y": 0,
+              "z": -6
+            }
+          },
+          {
+            "id": "s_enemy_2",
+            "type": "designer",
+            "characterFile": "angry_bunny.json",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": -8
+            }
+          },
+          {
+            "id": "s_enemy_3",
+            "type": "designer",
+            "characterFile": "angry_bunny.json",
+            "position": {
+              "x": 4,
+              "y": 0,
+              "z": -6
+            }
+          }
+        ],
+        "pickupSpawns": [
+          {
+            "id": "s_pickup_health",
+            "type": "health",
+            "position": {
+              "x": 2,
+              "y": 0.5,
+              "z": -2
+            },
+            "amount": 25
+          }
+        ],
+        "triggers": [
+          {
+            "id": "s_gate",
+            "event": "switch_gate",
+            "position": {
+              "x": 8,
+              "y": 1,
+              "z": 0
+            },
+            "size": {
+              "x": 2,
+              "y": 3,
+              "z": 2
+            },
+            "data": {
+              "gateAxis": "x"
+            }
+          },
+          {
+            "id": "s_stairs_down",
+            "event": "look_trigger",
+            "position": {
+              "x": -9,
+              "y": 1,
+              "z": 1
+            },
+            "size": {
+              "x": 2.4,
+              "y": 2.5,
+              "z": 2.4
+            },
+            "data": {
+              "go_to_map": "warren",
+              "linkId": "stairs_down",
+              "noMesh": true,
+              "prompt": "DESCEND"
+            }
+          }
+        ],
+        "playerStart": {
+          "x": 0,
+          "y": 1,
+          "z": 9
+        },
+        "playerStartRotation": 0,
+        "objective": "SURFACE — clear, open the gate (E walk-in), then DESCEND the stairs (E)"
+      }
+    },
+    {
+      "mapId": "warren",
+      "links": [
+        {
+          "id": "stairs_up",
+          "toMap": "surface",
+          "arrive": {
+            "x": -9,
+            "y": 1,
+            "z": 6
+          },
+          "arriveRotation": 3.141592653589793
+        }
+      ],
+      "def": {
+        "id": "sublevel_test_warren",
+        "name": "Sub-Level Sandbox — Warren",
+        "theme": "underground",
+        "geometry": [
+          {
+            "position": {
+              "x": 0,
+              "y": -0.05,
+              "z": 0
+            },
+            "size": {
+              "x": 50,
+              "y": 0.1,
+              "z": 50
+            },
+            "solid": true
+          },
+          {
+            "position": {
+              "x": 9,
+              "y": 0.2,
+              "z": 1.75
+            },
+            "size": {
+              "x": 1.8,
+              "y": 0.4,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": 9,
+              "y": 0.4,
+              "z": 1.25
+            },
+            "size": {
+              "x": 1.8,
+              "y": 0.8,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": 9,
+              "y": 0.6000000000000001,
+              "z": 0.75
+            },
+            "size": {
+              "x": 1.8,
+              "y": 1.2000000000000002,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": 9,
+              "y": 0.8,
+              "z": 0.25
+            },
+            "size": {
+              "x": 1.8,
+              "y": 1.6,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": 9,
+              "y": 1,
+              "z": -0.25
+            },
+            "size": {
+              "x": 1.8,
+              "y": 2,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": 9,
+              "y": 1.2000000000000002,
+              "z": -0.75
+            },
+            "size": {
+              "x": 1.8,
+              "y": 2.4000000000000004,
+              "z": 0.5
+            },
+            "solid": true,
+            "visible": false
+          },
+          {
+            "position": {
+              "x": 9,
+              "y": 1.2000000000000002,
+              "z": -2.5
+            },
+            "size": {
+              "x": 2.2,
+              "y": 2.4000000000000004,
+              "z": 3
+            },
+            "solid": true
+          }
+        ],
+        "staticModels": [
+          {
+            "modelId": "stairs",
+            "position": {
+              "x": 9,
+              "y": 0,
+              "z": 2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": 1
+          }
+        ],
+        "enemySpawns": [
+          {
+            "id": "w_enemy_1",
+            "type": "designer",
+            "characterFile": "cute.json",
+            "position": {
+              "x": -3,
+              "y": 0,
+              "z": -6
+            }
+          },
+          {
+            "id": "w_enemy_2",
+            "type": "designer",
+            "characterFile": "cute.json",
+            "position": {
+              "x": 3,
+              "y": 0,
+              "z": -6
+            }
+          },
+          {
+            "id": "w_enemy_3",
+            "type": "designer",
+            "characterFile": "angry_bunny.json",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": -10
+            }
+          }
+        ],
+        "pickupSpawns": [],
+        "triggers": [
+          {
+            "id": "w_gate",
+            "event": "switch_gate",
+            "position": {
+              "x": -8,
+              "y": 1,
+              "z": 0
+            },
+            "size": {
+              "x": 2,
+              "y": 3,
+              "z": 2
+            },
+            "data": {
+              "gateAxis": "x"
+            }
+          },
+          {
+            "id": "w_stairs_up",
+            "event": "look_trigger",
+            "position": {
+              "x": 9,
+              "y": 1,
+              "z": 1
+            },
+            "size": {
+              "x": 2.4,
+              "y": 2.5,
+              "z": 2.4
+            },
+            "data": {
+              "go_to_map": "surface",
+              "linkId": "stairs_up",
+              "noMesh": true,
+              "prompt": "ASCEND"
+            }
+          }
+        ],
+        "playerStart": {
+          "x": 9,
+          "y": 1,
+          "z": 6
+        },
+        "playerStartRotation": 3.141592653589793,
+        "objective": "WARREN — kill at least one, then ASCEND (E) to prove the surface persists"
+      }
+    }
+  ]
+}
