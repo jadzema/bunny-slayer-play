@@ -1,0 +1,27 @@
+{
+  "id": "angry_bunny",
+  "characterClass": "enemy",
+  "archetype": "angry",
+  "base": {
+    "maxHealth": 90,
+    "moveSpeed": 5.2,
+    "attackDamage": 12,
+    "attackRange": 2.2,
+    "attackCooldown": 0.9,
+    "staggerThreshold": 45
+  },
+  "enemy": {
+    "detectionRange": 24,
+    "aggressiveness": 0.88,
+    "attackMethod": "melee"
+  },
+  "visual": {
+    "bodyColor": "#a3a3a7",
+    "eyeColor": "#ff1800",
+    "eyeGlow": 0.85,
+    "bodyScale": 0.9001265625,
+    "accentColor": "#2e2e30",
+    "earInnerColor": "#5c5c60"
+  },
+  "dropType": "health"
+}

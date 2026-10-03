@@ -1,0 +1,60 @@
+{
+  "designerLevels": [
+    {
+      "id": "slayer_boot_camp",
+      "name": "SLAYER BOOT CAMP",
+      "file": "/levels/slayer_boot_camp.json",
+      "order": 1,
+      "savedAt": "2026-06-01T18:04:25.117Z"
+    },
+    {
+      "id": "bright_sunny_day",
+      "name": "BRIGHT SUNNY DAY",
+      "file": "/levels/bright_sunny_day.json",
+      "order": 2,
+      "savedAt": "2026-05-31T19:59:26.472Z"
+    },
+    {
+      "id": "night_is_coming",
+      "name": "NIGHT IS COMING",
+      "file": "/levels/night_is_coming.json",
+      "order": 3,
+      "savedAt": "2026-05-31T19:44:14.907Z"
+    },
+    {
+      "id": "night_zombies",
+      "name": "NIGHT ZOMBIES",
+      "file": "/levels/night_zombies.json",
+      "order": 4,
+      "savedAt": "2026-05-31T19:48:23.391Z"
+    },
+    {
+      "id": "down_the_rabbit_hole",
+      "name": "DOWN THE RABBIT HOLE",
+      "file": "/levels/down_the_rabbit_hole.json",
+      "order": 5,
+      "savedAt": "2026-05-31T19:49:03.341Z"
+    },
+    {
+      "id": "welcome_to_hell,_slayer",
+      "name": "WELCOME TO HELL, SLAYER",
+      "file": "/levels/welcome_to_hell,_slayer.json",
+      "order": 6,
+      "savedAt": "2026-05-31T19:49:45.575Z"
+    },
+    {
+      "id": "lab_prime_slice",
+      "name": "JOHN'S LAB",
+      "file": "/levels/lab_prime_slice.json",
+      "order": 7,
+      "savedAt": "2026-06-14T00:00:00.000Z"
+    },
+    {
+      "id": "order_restored",
+      "name": "ORDER RESTORED",
+      "file": "/levels/order_restored.json",
+      "order": 8,
+      "savedAt": "2026-06-15T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "archetype": "cute",
+  "name": "Tiny Bunny",
+  "visual": {
+    "bodyColor": "#dcc8a0",
+    "eyeColor": "#0061ff",
+    "eyeGlow": 0.5,
+    "earInnerColor": "#ffbdff",
+    "accentColor": "#ff9999",
+    "projColor": "#ffaa44",
+    "bodyScale": 0.5
+  },
+  "stats": {
+    "maxHealth": 60,
+    "moveSpeed": 2.8,
+    "attackRange": 1.8,
+    "attackDamage": 10,
+    "attackCooldown": 1.6,
+    "detectionRange": 16,
+    "staggerThreshold": 25
+  },
+  "behavior": {
+    "aggressiveness": 0.22,
+    "attackMethod": "melee",
+    "attackStyle": "methodical"
+  },
+  "damage": {
+    "bloodColor": "#b51a00",
+    "bloodIntensity": 2,
+    "woundGlow": true
+  },
+  "death": {
+    "corpseType": "scatter",
+    "bloodPoolColor": "#cc0033",
+    "bloodPoolRadius": 0.5,
+    "corpseFade": false
+  },
+  "dropType": "health"
+}

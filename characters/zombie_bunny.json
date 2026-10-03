@@ -1,0 +1,27 @@
+{
+  "id": "zombie_bunny",
+  "characterClass": "enemy",
+  "archetype": "zombie",
+  "base": {
+    "maxHealth": 70,
+    "moveSpeed": 3.2,
+    "attackDamage": 18,
+    "attackRange": 1.8,
+    "attackCooldown": 1.2,
+    "staggerThreshold": 35
+  },
+  "enemy": {
+    "detectionRange": 20,
+    "aggressiveness": 0.6,
+    "attackMethod": "melee"
+  },
+  "visual": {
+    "bodyColor": "#6b827a",
+    "eyeColor": "#aed89a",
+    "eyeGlow": 0.25,
+    "bodyScale": 0.6375,
+    "accentColor": "#7e2020",
+    "earInnerColor": "#44264a"
+  },
+  "dropType": "health"
+}

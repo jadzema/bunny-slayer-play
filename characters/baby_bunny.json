@@ -1,0 +1,27 @@
+{
+  "id": "baby_bunny",
+  "characterClass": "enemy",
+  "archetype": "baby",
+  "base": {
+    "maxHealth": 25,
+    "moveSpeed": 1.14,
+    "attackDamage": 1,
+    "attackRange": 0.9,
+    "attackCooldown": 2.95,
+    "staggerThreshold": 8
+  },
+  "enemy": {
+    "detectionRange": 6,
+    "aggressiveness": 0.02,
+    "attackMethod": "melee"
+  },
+  "visual": {
+    "bodyColor": "#fff0f5",
+    "eyeColor": "#ff88aa",
+    "eyeGlow": 0,
+    "bodyScale": 0.4,
+    "accentColor": "#ffccdd",
+    "earInnerColor": "#ffd0e0"
+  },
+  "dropType": "health"
+}
