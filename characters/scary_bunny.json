@@ -1,0 +1,27 @@
+{
+  "id": "scary_bunny",
+  "characterClass": "enemy",
+  "archetype": "scary",
+  "base": {
+    "maxHealth": 140,
+    "moveSpeed": 4.6,
+    "attackDamage": 15,
+    "attackRange": 2.4,
+    "attackCooldown": 1.1,
+    "staggerThreshold": 60
+  },
+  "enemy": {
+    "detectionRange": 26,
+    "aggressiveness": 0.7,
+    "attackMethod": "melee"
+  },
+  "visual": {
+    "bodyColor": "#6b6e72",
+    "eyeColor": "#dfe4d8",
+    "eyeGlow": 0.4,
+    "bodyScale": 1.0125,
+    "accentColor": "#cdbfae",
+    "earInnerColor": "#3a3d40"
+  },
+  "dropType": "armor"
+}

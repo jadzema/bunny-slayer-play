@@ -1,0 +1,27 @@
+{
+  "id": "hellspawn_hare",
+  "characterClass": "enemy",
+  "archetype": "hellspawn",
+  "base": {
+    "maxHealth": 135,
+    "moveSpeed": 3.6,
+    "attackDamage": 18,
+    "attackRange": 3.64,
+    "attackCooldown": 1.4,
+    "staggerThreshold": 70
+  },
+  "enemy": {
+    "detectionRange": 28,
+    "aggressiveness": 0.85,
+    "attackMethod": "melee"
+  },
+  "visual": {
+    "bodyColor": "#3a322c",
+    "eyeColor": "#ff5a14",
+    "eyeGlow": 1.7,
+    "bodyScale": 1.17,
+    "accentColor": "#ff6a1a",
+    "earInnerColor": "#5a1810"
+  },
+  "dropType": null
+}

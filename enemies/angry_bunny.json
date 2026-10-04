@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "archetype": "angry",
+  "name": "Angry Bunny",
+  "visual": {
+    "bodyColor": "#dfa1b0",
+    "eyeColor": "#ff1800",
+    "eyeGlow": 0.85,
+    "earInnerColor": "#4a2e18",
+    "accentColor": "#120c06",
+    "projColor": "#ff4400",
+    "bodyScale": 1
+  },
+  "stats": {
+    "maxHealth": 90,
+    "moveSpeed": 5.2,
+    "attackRange": 2.2,
+    "attackDamage": 22,
+    "attackCooldown": 0.9,
+    "detectionRange": 24,
+    "staggerThreshold": 45
+  },
+  "behavior": {
+    "aggressiveness": 0.88,
+    "attackMethod": "charge",
+    "attackStyle": "aggressive"
+  },
+  "damage": {
+    "bloodColor": "#ff2600",
+    "bloodIntensity": 1.8,
+    "woundGlow": true
+  },
+  "death": {
+    "corpseType": "explode",
+    "bloodPoolColor": "#880000",
+    "bloodPoolRadius": 1.2,
+    "corpseFade": false
+  },
+  "dropType": "ammo"
+}
